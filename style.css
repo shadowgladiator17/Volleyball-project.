@@ -1,0 +1,76 @@
+/* Layout and Large Navy Border */
+html {
+    background-color: #1a237e;
+    padding: 40px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    border: 5px solid #ffcc00; /* Gold inner frame */
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #eeeeee;
+}
+
+nav a {
+    color: #1a237e;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #d32f2f;
+}
+
+/* Content Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.8;
+}
+
+h1 {
+    color: #1a237e;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #d32f2f;
+    border-left: 5px solid #1a237e;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+/* Image and Video Scaling */
+img, video {
+    display: block;
+    margin: 30px auto;
+    width: 85%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Bullet Points and Forms */
+ul { padding: 0; list-style: none; }
+li { background: #f9f9f9; margin: 10px 0; padding: 15px; border-radius: 5px; border-right: 5px solid #1a237e; }
+
+form { background: #f4f4f4; padding: 30px; border-radius: 10px; }
+input, select, textarea { width: 100%; padding: 12px; margin: 10px 0 20px; border: 1px solid #ccc; border-radius: 5px; }
+input[type="submit"] { background: #1a237e; color: white; border: none; font-weight:
