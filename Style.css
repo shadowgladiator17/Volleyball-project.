@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Large Navy Outer Border */
+html {
+    background-color: #1a237e;
+    padding: 50px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    border: 5px solid #ffcc00; /* Gold Inner Frame */
+    min-height: 100vh;
+}
+
+/* Global Navigation - Available on every page */
+nav {
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #eeeeee;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #1a237e;
+    margin: 0 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #d32f2f;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    line-height: 1.8;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #1a237e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #d32f2f;
+    border-left: 5px solid #1a237e;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+/* Perfect Image and Video Scaling */
+img, video {
+    display: block;
+    margin: 40px auto;
+    width: 85%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+ul { padding: 0; list-style: none; }
+li { background: #f8f9fa; margin: 15px 0; padding: 20px; border-radius: 8px; border-right: 6px solid #1a237e; }
+
+form { background-color: #f9f9f9; padding: 40px; border-radius: 12px; border: 1px solid #ddd; }
+input, select, textarea { width: 100%; padding: 15px; margin: 10px 0 25px; border: 1px solid #ccc; border-radius: 6px; }
+input[type="submit"] { background-color: #1a237e; color: white; border: none; font-weight: bold; cursor: pointer; text-transform: uppercase; }
